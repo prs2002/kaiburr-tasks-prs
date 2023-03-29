@@ -1,70 +1,27 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a basic WEB UI frontend for the application that was created for Task 1. This WEB UI uses React for frontend and springboot for backend.
+This web application is able to create, show and delete records from the UI and update them simultaneously in the database.
 
-## Available Scripts
+### Tech stack used in this Application:
+#### 1.ReactJs </br>
+#### 2.SpringBoot Framework </br>
+#### 3.MongoDB </br>
+#### 4.ReactStrap </br>
 
-In the project directory, you can run:
+### Below are the steps :
 
-### `npm start`
+### First open "http://localhost:3000/" . Homepage will be appear in which server list option will be available.
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/64260524/228673221-0c5fd866-ac76-4d1d-88b9-34696bef2b28.png">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Then, In the Manage cars section, we can view all the list of cars(servers)
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/64260524/228673622-ccda4fbc-6b24-4fb0-9b1e-e778c4dd518d.png">
+...scrolling
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/64260524/228673690-91a045a7-043b-45a1-af81-3f09775daed6.png">
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### In the same Manage cars section, we can also use the delete button to delete the car(server) from database
 
-### `npm test`
+### In the Add cars section, we can add the car(server) to the database
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### In the Search cars section, we can search the car(server) in the database using the carId
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
