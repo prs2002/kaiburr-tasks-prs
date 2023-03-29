@@ -26,8 +26,46 @@ The server objects are saved in MongoDB database.
 1. Create a server class, this sends our objects to the database.
 <img width="564" alt="image" src="https://user-images.githubusercontent.com/64260524/228661957-8844d2be-164d-42ac-9f5a-5b0e735dd687.png">
 
-###Step 5: Create the REST API endpoints
+### Step 5: Create the REST API endpoints
 1. Create a new package named controller.
 2. In that package create a new controller class(here named MyController).
 3. In this class we have three get request mapping, one post request mapping and one delete request mapping for retrieving, insertion and deletion.
- <img width="683" alt="image" src="https://user-images.githubusercontent.com/64260524/228663707-5c6aa96e-d951-4708-82f3-56d652ff6f1f.png">
+ <img width="683" alt="image" src="https://user-images.githubusercontent.com/64260524/228663707-5c6aa96e-d951-4708-82f3-56d652ff6f1f.png">  
+ This code defines the following endpoints:   </br>
+  1. GET /api/v1/servers: Returns all servers.  </br>
+  2. GET /api/v1/servers/{id}: Returns the server with the specified ID.   </br>
+  3. GET /api/v1/servers/name/{name}: Returns the server with the specified name. </br>  
+  4. POST /api/v1/servers: Creates a new server.   </br>
+  5. DELETE /api/v1/servers/{id}: Deletes the server of given id </br>  
+
+## Testing using postman
+
+### Get All servers from postman
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/64260524/228666696-1c218e12-2dc4-4095-816d-94a08184d634.png">
+
+### All servers in the database 
+<img width="269" alt="image" src="https://user-images.githubusercontent.com/64260524/228666165-6f178ead-a58e-4105-a8cb-58dc6b239000.png">
+
+### Get server using id from postman
+<img width="959" alt="image" src="https://user-images.githubusercontent.com/64260524/228667012-ba0ff44f-10b3-4567-bc39-31a827739f48.png">
+
+### Get server using name from postman
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/64260524/228667316-035a00ae-d137-46a1-9368-2466ad1e00dc.png">
+
+### Delete server using name from postman
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/64260524/228667727-d9d03d17-7a84-407c-bd78-e17ad1f75a8e.png">
+
+### Server Deleted in the database
+<img width="242" alt="image" src="https://user-images.githubusercontent.com/64260524/228667879-a28e9540-cba5-405d-b27c-eaea908bf60f.png">
+
+### Add server using name from postman
+<img width="950" alt="image" src="https://user-images.githubusercontent.com/64260524/228669044-4c487352-a793-4cee-b2bb-deea0ed472e8.png">
+
+### Server Added in the database
+<img width="259" alt="image" src="https://user-images.githubusercontent.com/64260524/228669155-dee8d8a7-2fd6-484c-a40e-36ffb80b022e.png">
+
+## We have successfully built a spring boot rest api application and Tested it using postman.
+### Tech stack used in this Application:
+#### 1.SpringBoot Framework </br>
+#### 2.MongoDB </br>
+#### 3.Java </br>
