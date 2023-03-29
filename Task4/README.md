@@ -25,9 +25,9 @@ This web application is able to create, show and delete records from the UI and 
 
 ### In the Add cars section, we can add the car(server) to the database
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/64260524/228676448-ed6c8858-c6f4-4411-9b27-2cae2415b47e.png">
-####after adding
+#### after adding
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/64260524/228676507-a516f745-ec9f-42ae-bc33-b4bc48552698.png">
 
 ### In the Search cars section, we can search the car(server) in the database using the carId
-<img width="409" alt="image" src="https://user-images.githubusercontent.com/64260524/228676827-70afa613-00c1-4013-be51-1d7b85f7e51c.png">
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/64260524/228676827-70afa613-00c1-4013-be51-1d7b85f7e51c.png">
 
