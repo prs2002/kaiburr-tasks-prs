@@ -20,8 +20,14 @@ This web application is able to create, show and delete records from the UI and 
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/64260524/228673690-91a045a7-043b-45a1-af81-3f09775daed6.png">
 
 ### In the same Manage cars section, we can also use the delete button to delete the car(server) from database
+##### After deleting car with id-1 and id-2
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/64260524/228676301-901588b1-5a3d-459b-ab49-bb9b65520cb1.png">
 
 ### In the Add cars section, we can add the car(server) to the database
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/64260524/228676448-ed6c8858-c6f4-4411-9b27-2cae2415b47e.png">
+####after adding
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/64260524/228676507-a516f745-ec9f-42ae-bc33-b4bc48552698.png">
 
 ### In the Search cars section, we can search the car(server) in the database using the carId
+<img width="409" alt="image" src="https://user-images.githubusercontent.com/64260524/228676827-70afa613-00c1-4013-be51-1d7b85f7e51c.png">
 
