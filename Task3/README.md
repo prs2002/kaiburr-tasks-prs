@@ -7,29 +7,5 @@
 2) Create a Dockerfile for MongoDB:
 <img width="408" alt="image" src="https://user-images.githubusercontent.com/64260524/228726280-98dbb87a-268a-433c-8c96-76dc6bfcd7cd.png">
 3) Create docker-compose.yml file and add the follwing code. Below code is just the services we need from docker
+<img width="491" alt="image" src="https://user-images.githubusercontent.com/64260524/228728304-f620f15a-aa0a-49c8-828d-a194f13f749d.png">
 
-```
-version: '3.1'
-
-services:
-  springboot:
-    build: .
-    # image: registry.gitlab.com/idgst/springboot-mongo-demo:latest
-    restart: always
-    container_name: springboot
-    ports:
-      - 8182:8080
-    working_dir: /opt/app
-    depends_on:
-      - mongo
-
-  mongo:
-    image: mongo
-    container_name: springboot-mongo
-    #    ports:  # for demo/debug purpose only
-    #      - 27018:27017
-    volumes:
-      - $HOME/data/springboot-mongo-data:/data/db
-      - $HOME/data/springboot-mongo-bkp:/data/bkp
-    restart: always
-```
